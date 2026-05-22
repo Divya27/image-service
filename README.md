@@ -17,3 +17,6 @@ npm run dev
 
 - Run tests
 npm test
+
+- API docs can be found:
+http://localhost:3000/api-docs

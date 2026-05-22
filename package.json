@@ -1,0 +1,36 @@
+{
+  "name": "image-service",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divya27/image-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divya27/image-service/issues"
+  },
+  "homepage": "https://github.com/Divya27/image-service#readme",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.699.0",
+    "@aws-sdk/client-s3": "^3.699.0",
+    "@aws-sdk/lib-dynamodb": "^3.699.0",
+    "@aws-sdk/s3-request-presigner": "^3.699.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}
